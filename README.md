@@ -1,50 +1,49 @@
-Xtreme Vulnerable Web Application (XVWA) en EspaÒol
+Xtreme Vulnerable Web Application (XVWA) en Espa√±ol
 =========================================
-XVWA es una aplicaciÛn web mal codificada escrita en PHP / MySQL que ayuda a los entusiastas de la seguridad 
-a aprender la seguridad de las aplicaciones WEB. No es recomendable alojar esta aplicaciÛn en lÌnea, ya que est·
-diseÒada para ser "Extremadamente Vulnerable". Recomendamos alojar esta aplicaciÛn en un entorno local/controlado.
+XVWA es una aplicaci√≥n web mal codificada escrita en PHP / MySQL que ayuda a los entusiastas de la seguridad 
+a aprender la seguridad de las aplicaciones WEB. No es recomendable alojar esta aplicaci√≥n en l√≠nea, ya que est√°
+dise√±ada para ser "Extremadamente Vulnerable". Recomendamos alojar esta aplicaci√≥n en un entorno local/controlado.
 El fin es que puedas agudizar tus habilidades de seguridad, ya que este proyecto es totalmente legal romperlo o piratearlo.
-La idea es evangelizar la seguridad de las aplicaciones web para la comunidad de la forma m·s f·cil posible.
-Por favor Aprende y adquiere estas habilidades para un buen propÛsito. 
+La idea es evangelizar la seguridad de las aplicaciones web para la comunidad de la forma m√°s f√°cil posible.
+Por favor Aprende y adquiere estas habilidades para un buen prop√≥sito. 
 
 
+https://ibb.co/dy62jR
 
-![Image of XVWA Home Page]
-(https://pbs.twimg.com/media/CWsFq1SVEAACsCh.png:large) 
 
-XVWA est· diseÒado para comprender los siguientes problemas de seguridad. 
+XVWA est√° dise√±ado para comprender los siguientes problemas de seguridad. 
 
-+ InyecciÛn SQL - Basada en Error.
-+ InyecciÛn SQL A Ciegas. 
-+ InyecciÛn de Comando OS. 
-+ InyecciÛn XPATH.
-+ InyecciÛn de FÛrmula CSV.
-+ InyecciÛn de Objetos PHP.
++ Inyecci√≥n SQL - Basada en Error.
++ Inyecci√≥n SQL A Ciegas. 
++ Inyecci√≥n de Comando OS. 
++ Inyecci√≥n XPATH.
++ Inyecci√≥n de F√≥rmula CSV.
++ Inyecci√≥n de Objetos PHP.
 + Carga de Archivos Insegura.
 + Secuencias de Comandos en Sitios Cruzados (XSS) - Reflejados. 
 + Secuencias de Comandos en Sitios Cruzados (XSS) - Almacenado. 
 + Secuencias de Comandos en Sitios Cruzados (XSS) - DOM.
-+ FalsificaciÛn de Solicitudes del lado del Servidor (SSRF/XSPA).  
-+ InclusiÛn de Archivos.
-+ InyecciÛn XXE.(Nuevo).
++ Falsificaci√≥n de Solicitudes del lado del Servidor (SSRF/XSPA).  
++ Inclusi√≥n de Archivos.
++ Inyecci√≥n XXE.(Nuevo).
 + Flags de Sesiones Web.
 + Referencia Insegura a Objetos.
 + Falta del Control de Acceso a Nivel Funcional.
-+ FalsificaciÛn de Solicitudes Cruzadas (CSRF).
-+ CriptografÌa.(Nuevo).
++ Falsificaci√≥n de Solicitudes Cruzadas (CSRF).
++ Criptograf√≠a.(Nuevo).
 + Token Hijacking.(Nuevo).
 + Captcha Vulnerable a Ataques OCR.(Nuevo).
-+ Redirecciones y ReenvÌos Incorrectos.
-+ InyecciÛn de Plantilla del Lado del Servidor (SSTI).
-+ UtilizaciÛn de Componentes con Vulnerabilidades Conocidas(Nuevo).
++ Redirecciones y Reenv√≠os Incorrectos.
++ Inyecci√≥n de Plantilla del Lado del Servidor (SSTI).
++ Utilizaci√≥n de Componentes con Vulnerabilidades Conocidas(Nuevo).
 
  Buena Suerte y Happy Hacking!
 
 
-## AclaraciÛn
+## Aclaraci√≥n
 
-No aloje esta aplicaciÛn en linea ni en el entorno de producciÛn. XVWA es una aplicaciÛn totalmente vulnerable y el acceso en lÌnea de esta aplicaciÛn
-podrÌa llevar a un completo compromiso de su sistema. No somos responsables de dichos incidentes. Mantenerse a salvo por favor ! 
+No aloje esta aplicaci√≥n en linea ni en el entorno de producci√≥n. XVWA es una aplicaci√≥n totalmente vulnerable y el acceso en l√≠nea de esta aplicaci√≥n
+podr√≠a llevar a un completo compromiso de su sistema. No somos responsables de dichos incidentes. Mantenerse a salvo por favor ! 
 
 ## Copyright
 Este trabajo esta bajo la licencia GNU GENERAL PUBLIC LICENSE Version 3
@@ -52,13 +51,13 @@ Para ver una copia de esta licencia visita http://www.gnu.org/licenses/gpl-3.0.t
 
 
 ## Instrucciones 
-XVWA es f·cil de instalar. Puede ser configurado en Windows, Linux o Mac. Los siguientes son los pasos b·sicos que debes seguir en tu entorno 
+XVWA es f√°cil de instalar. Puede ser configurado en Windows, Linux o Mac. Los siguientes son los pasos b√°sicos que debes seguir en tu entorno 
 Para la instalacion. Puedes usar WAMP, XAMP o cualquier cosa  Apache-PHP-MYSQL para que funcione correctamente 
 
-## InstalaciÛn Manual
+## Instalaci√≥n Manual
 
-Copie la carpeta xvwa en su directorio web. Aseg˙rese de que el nombre del directorio sea xvwa. 
-Realice los cambios necesarios en xvwa/config.php para la conexiÛn a la base de datos. Ejemplo a continuaciÛn:
+Copie la carpeta xvwa en su directorio web. Aseg√∫rese de que el nombre del directorio sea xvwa. 
+Realice los cambios necesarios en xvwa/config.php para la conexi√≥n a la base de datos. Ejemplo a continuaci√≥n:
 
 ```php
 $XVWA_WEBROOT = '';  
@@ -68,7 +67,7 @@ $user = 'root';
 $pass = 'root';
 ```
 
-Realice los siguientes cambios en el archivo de configuraciÛn de PHP.
+Realice los siguientes cambios en el archivo de configuraci√≥n de PHP.
 
 ```php
 file_uploads = on 
@@ -89,9 +88,9 @@ user:vulnerable
 ```
 
 
-## Acerca de XVWA en EspaÒol
+## Acerca de XVWA en Espa√±ol
 
- XVWA est· diseÒado intencionalmente con muchos fallos de seguridad y suficiente fundamento tÈcnico para mejorar el conocimiento de la seguridad de las aplicaciones. Toda esta idea es evangelizar los problemas de seguridad de las aplicaciones web. H·ganos saber sus sugerencias de mejora o cualquier otra vulnerabilidad que le gustarÌa ver en futuros lanzamientos de XVWA.
+ XVWA est√° dise√±ado intencionalmente con muchos fallos de seguridad y suficiente fundamento t√©cnico para mejorar el conocimiento de la seguridad de las aplicaciones. Toda esta idea es evangelizar los problemas de seguridad de las aplicaciones web. H√°ganos saber sus sugerencias de mejora o cualquier otra vulnerabilidad que le gustar√≠a ver en futuros lanzamientos de XVWA.
 
 ## Autores:
 - @s4n7h0 https://twitter.com/s4n7h0
