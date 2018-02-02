@@ -7,8 +7,8 @@ El fin es que puedas agudizar tus habilidades de seguridad, ya que este proyecto
 La idea es evangelizar la seguridad de las aplicaciones web para la comunidad de la forma más fácil posible.
 Por favor Aprende y adquiere estas habilidades para un buen propósito. 
 
+![](https://ibb.co/dy62jR | width=100)
 
-https://ibb.co/dy62jR
 
 
 XVWA está diseñado para comprender los siguientes problemas de seguridad. 
