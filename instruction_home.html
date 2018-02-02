@@ -1,0 +1,58 @@
+ <meta charset="iso-8859-1">
+
+ <div class="thumbnail">
+    <!--
+                    <img class="img-responsive" src="http://placehold.it/800x300" alt="">
+                -->
+                <div class="caption-full">
+                    <h4><a href="#">Xtreme Vulnerable Web Application (XVWA) - Instrucciones</a></h4>
+
+                    <p align="justify">
+                       XVWA es fácil de instalar. Puede ser configurado en Windows, Linux o Mac. Los siguientes son los pasos básicos que debes seguir en tu entorno 
+                       Para la instalacion. Puedes usar WAMP, XAMP o cualquier cosa  Apache-PHP-MYSQL para que funcione correctamente  </p>
+                    <p align="justify">
+                       Copie la carpeta xvwa en su directorio web. Asegúrese de que el nombre del directorio sea xvwa. 
+                       Realice los cambios necesarios en xvwa/config.php para la conexión a la base de datos. Ejemplo a continuación:<br><br>
+                        <code>
+                            $XVWA_WEBROOT = ''; <br>
+                            $host = "localhost"; <br>
+                            $dbname = 'xvwa'; <br> 
+                            $user = 'root'; <br> 
+                            $pass = 'root'; 
+                        </code><br><br>
+                       
+			Realice los siguientes cambios en el archivo de configuración de PHP. <br><br>
+                        <code>
+                            file_uploads = on  <br>
+                            allow_url_fopen = on <br>
+                            allow_url_include = on 
+                        </code>    
+                    </p>
+                    <p align="justify">
+                        Acceso a la Web : http://localhost/xvwa/<br>
+                        Configure la base de datos y las tablas accediendo a http://localhost/xvwa/setup/ <br>
+                    </p>
+                    <p align="justify">
+                        Detalles del Acceso:<br><br>
+                    <code>
+                        admin:admin<br>
+                        xvwa:xvwa<br>
+                        user:vulnerable 
+                    </code>
+                    </p>
+
+                    
+
+                    </div>
+
+                </div>
+
+                <div class="well">
+                     <p>
+                        <strong>Aclaración</strong><br>
+                       No aloje esta aplicación en linea ni en el entorno de producción. XVWA es una aplicación totalmente vulnerable y el acceso en línea de esta aplicación
+                       podría llevar a un completo compromiso de su sistema. No somos responsables de dichos incidentes. Mantenerse a salvo por favor ! 
+                    </p>
+                    <hr>
+
+                </div>
