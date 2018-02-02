@@ -1,13 +1,13 @@
 Xtreme Vulnerable Web Application (XVWA) en Español
 =========================================
-XVWA es una aplicación web mal codificada escrita en PHP / MySQL que ayuda a los entusiastas de la seguridad 
+XVWA es una aplicación Web mal Desarrollada en PHP / MySQL que ayuda a los entusiastas de la seguridad 
 a aprender la seguridad de las aplicaciones WEB. No es recomendable alojar esta aplicación en línea, ya que está
 diseñada para ser "Extremadamente Vulnerable". Recomendamos alojar esta aplicación en un entorno local/controlado.
 El fin es que puedas agudizar tus habilidades de seguridad, ya que este proyecto es totalmente legal romperlo o piratearlo.
 La idea es evangelizar la seguridad de las aplicaciones web para la comunidad de la forma más fácil posible.
 Por favor Aprende y adquiere estas habilidades para un buen propósito. 
 
-<img src="https://i.imgur.com/q8wE1hY.jpg" width="1200" height="800">
+<img src="https://i.imgur.com/q8wE1hY.jpg" width="1000" height="800">
 
 
 
