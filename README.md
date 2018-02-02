@@ -7,7 +7,7 @@ El fin es que puedas agudizar tus habilidades de seguridad, ya que este proyecto
 La idea es evangelizar la seguridad de las aplicaciones web para la comunidad de la forma más fácil posible.
 Por favor Aprende y adquiere estas habilidades para un buen propósito. 
 
-<img src="https://i.imgur.com/q8wE1hY.jpg" width="400" height="790">
+<img src="https://i.imgur.com/q8wE1hY.jpg" width="1200" height="800">
 
 
 
